@@ -1,0 +1,32 @@
+h3{
+    font-size:100px;
+}
+
+.btn-success:hover{
+    background-color: rgb(255, 136, 0);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 40px purple}
+    to{box-shadow: 1px 1px 38px blue}
+}
+
+.btn{
+    outline: black;
+    outline-style: solid;
+}
+
+#footer{
+    margin-top: 435px;
+    background-color: rgb(44, 43, 46);
+    color:white;
+    height:30px;
+    padding-top: 5px;
+    font-size: 15px;
+}
